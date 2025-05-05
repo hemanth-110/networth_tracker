@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+/* Custom styles for the application */
+.sidebar {
+  min-height: calc(100vh - 56px);
+  background-color: #f8f9fa;
+}
+
+.card-hover:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.status-badge {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-light-hover:hover {
+  background-color: #f8f9fa;
+}
+
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Custom colors for the dashboard cards */
+.bg-primary-gradient {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+}
+
+.bg-success-gradient {
+  background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+}
+
+.bg-warning-gradient {
+  background: linear-gradient(135deg, #ffc107 0%, #d39e00 100%);
+}
+
+.bg-danger-gradient {
+  background: linear-gradient(135deg, #dc3545 0%, #bd2130 100%);
+}
+
+/* Custom styles for forms */
+.form-label {
+  font-weight: 500;
+}
+
+/* Custom styles for auth pages */
+.auth-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+}
